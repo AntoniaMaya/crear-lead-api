@@ -3,6 +3,7 @@ import xmlrpc.client
 import os
 
 app = Flask(__name__)
+CORS(app)
 
 # Configuración de conexión a Odoo
 odoo_url = "https://antoniamaya-zapier.odoo.com"
